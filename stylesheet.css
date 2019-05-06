@@ -1,17 +1,23 @@
+* {
+  box-sizing: border-box;
+}
 .main{
-  background-image: url(https://cdn.pixabay.com/photo/2017/09/22/21/32/background-2777146_960_720.jpg);
+  background-image: url();
   background-size: cover;
   padding:80px 100px;
   text-align:center;
   height:1200px;
 }
 .container{
-  width:1170px;
+  width:100%;
   margin:0 auto;
 }
 
 .heading h1{
   color:green;
+}
+.clear{
+  clear:left;
 }
 .lesson{
   float:left;
